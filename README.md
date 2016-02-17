@@ -79,7 +79,31 @@ Se nao por o x ele printa as 10 primeiras
 
 Se quiser ler as ultimas linhas, usar tail no lugar de head
 
-#Comando para editar um arquivo no terminal:
+##Comando para editar um arquivo no terminal:
 vi (nome do arquivo)
+
+##Comando para saber quais os processos que estao sendo executados no bash:
+ps 
+
+Para mostrar todos os processos do sistema, usar a flag -e 
+
+##Comando para parar um processo:
+kill (id do processo)
+
+Se o processo tiver travado, passar a flag -9
+
+##Comando para filtrar a lista de processos por nome:
+ps -ef | grep (nome do processo)
+
+Grep tambem serve para filtrar com outros comandos, como o cat por exemplo
+
+##Comando para mostrar uma situação detalhada da cpu:
+top
+
+##Comando para matar todos os processos com determinado nome:
+killall (nome do processo)
+
+##Comando para vizualizar os processos em forma de arvore:
+pstree
 
 
