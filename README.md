@@ -9,6 +9,9 @@ ls
 echo (mensagem)
 ##Salvando uma mensagem em um arquivo:
 echo(mensagem) > (arquivo)
+
+Para adicionar conteudo no arquivo sem sobrescreve-lo usar >> no lugar de >
+
 ##Comando para ler o conteudo de um arquivo no terminal:
 cat (arquivo)
 ##Comando para limpar o terminal:
@@ -19,3 +22,8 @@ ls -la
 man (comando)
 ##Comando para mostrar qual usuário esta usando o terminal:
 whoami
+##Comando para entrar em um diretorio:
+cd (nome do diretorio)
+
+##Comando para ir para o diretorio anterior:
+cd ..
