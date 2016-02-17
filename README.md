@@ -117,7 +117,7 @@ fg (id do processo)
 ##Abrir um processo e automaticamente jogar para o background:
 (nome do processo) &
 
-#Comando para alterar permissoes nos arquivos:
+##Comando para alterar permissoes nos arquivos:
 chmod 
 
 Flags:
@@ -148,6 +148,25 @@ su (nome do usuario)
 
 ##Comando para adicionar novo usuario:
 adduser (nome do usuario)
+
+##Comando para ver as variaveis de ambiente:
+env
+
+##Comando para procurar um programa disponivel para instalação:
+apt cache search (nome do programa para busca)
+
+##Comando para instalar um programa:
+apt get install (nome do programa)
+
+(Apenas como sudo)
+
+Para remover, no lugar de install poe remove
+
+##Comando para instalar .deb
+
+dpkg -i (nome do arquivo)
+
+(Apenas como sudo)
 
 
 
