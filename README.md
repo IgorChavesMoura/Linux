@@ -106,4 +106,54 @@ killall (nome do processo)
 ##Comando para vizualizar os processos em forma de arvore:
 pstree
 
+##Jogar um processo para o background:
+Ctrl + Z para parar o processo
+Comando jobs para ver o id do processo parado
+bg (id do processo)
+
+##Comando para voltar um processo do background para o foreground:
+fg (id do processo)
+
+##Abrir um processo e automaticamente jogar para o background:
+(nome do processo) &
+
+#Comando para alterar permissoes nos arquivos:
+chmod 
+
+Flags:
++x -> adiciona permissao de execução
++r -> adiciona permissao de leitura
++w -> adiciona permissao de escrita
+
+Se trocar o + por - ele tira a permissao
+
+Se passar uma das tres seguintes letras antes das flags:
+o -> altera a permissao para outros
+u-> altera permissao para o usuario
+g-> altera permissao para o grupo
+
+Ex: chmod o+rw README.md
+
+##Comando para localizar um arquivo:
+locate (nome do arquivo)
+
+##Comando para atualizar o banco do linux:
+updatedb
+
+##Comando para saber qual arquivo vai executar se usar um comando X:
+which X
+
+##Comando para mudar o usuario:
+su (nome do usuario)
+
+##Comando para adicionar novo usuario:
+adduser (nome do usuario)
+
+
+
+
+
+
+
+
 
