@@ -61,4 +61,25 @@ unzip (nome do arquivo).zip
 
 Se passar a flag -l ele mostra o que tem no arquivo zip
 
+##Comando para compactar um diretorio em um arquivo TAR:
+tar -zcf (nome do arquivo).tar (nome do diretorio)
+
+##Comando para descompactar um arquivo TAR:
+tar -zxf  (nome do arquivo).tar
+
+Se usar a flag -v para compactar ou descompactar, ele aumenta as imformações no log
+
+##Comando para alterar a data de modificação de um arquivo:
+touch (nome do arquivo)
+
+##Comando para printar x primeiras linhas de um arquivo:
+head -n x (nome do arquivo)
+
+Se nao por o x ele printa as 10 primeiras
+
+Se quiser ler as ultimas linhas, usar tail no lugar de head
+
+#Comando para editar um arquivo no terminal:
+vi (nome do arquivo)
+
 
