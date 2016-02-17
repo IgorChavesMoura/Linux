@@ -168,7 +168,11 @@ dpkg -i (nome do arquivo)
 
 (Apenas como sudo)
 
+##Executar o ssh em modo grafico:
+ssh -X (nome do usuario)@(ip do servidor)
 
+##Comando para copiar um arquivo via SSH:
+scp (nome do arquivo) (nome do usuario)@(ip do servidor):(diretorio de destino)
 
 
 
